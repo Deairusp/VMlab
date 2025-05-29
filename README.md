@@ -20,32 +20,76 @@ Project consists of a simple lab that walks the user through creating a virtual 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Launch Azure and search Resource Groups: <br/>
 <img src="https://i.imgur.com/QGW89IW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create Resource Group: Use dashes when naming resource group then choose region  <br/>
+<img src="https://i.imgur.com/iFwVGdp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Confirm Resource Group creation: Take note of the location then search virtual machines in search bar <br/>
+<img src="https://i.imgur.com/my7nABQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Virtual Machine: Select the resource group you just created to house your VM  <br/>
+<img src="https://i.imgur.com/EDQTbSo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Use dashes when naming your VM (make sure region matches with resource group location)  <br/>
+<img src="https://i.imgur.com/ZAicJFN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Image: Use the Windows 10 Pro, version 22H2 - x64 Gen2  <br/>
+<img src="https://i.imgur.com/Z03QUSn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Size: Use at least 2vcpus  <br/>
+<img src="https://i.imgur.com/v3f4bjK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+  create your user name and password (take note of it in notepad)  <br/>
+<img src="https://i.imgur.com/gTGwIpn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+  Check the box under licensing then click 'next' through to Networking  <br/>
+<img src="https://i.imgur.com/FMNpIOY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+  If 'virtual network' is blank, click create new, name your network (use dashes) then use default settings seen below (click ok, then click review + create)  <br/>
+<img src="https://i.imgur.com/SXiDZ7G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ Confirm validation passed then click create  <br/>
+<img src="https://i.imgur.com/Qlp4RYj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ Once deployment is complete type virtual machines in the search bar  <br/>
+<img src="https://i.imgur.com/rJAM2uS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ Copy your virtual machines public IP address (example below)  <br/>
+<img src="https://i.imgur.com/Z5yKllx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ Search remote desktop from your computer then double click   <br/>
+<img src="https://i.imgur.com/6Ppg4sx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ Paste virtual machines public IP address then click connect  <br/>
+<img src="https://i.imgur.com/JcVeodK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ Click more choices then enter user name and password you created for VM (use notepad to keep track of username and password)  <br/>
+<img src="https://i.imgur.com/stVRH9H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ Click yes (let VM connect)  <br/>
+<img src=https://i.imgur.com/6zLHZce.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the the virtual machine   <br/>
+<img src="https://i.imgur.com/f4iHZG2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
